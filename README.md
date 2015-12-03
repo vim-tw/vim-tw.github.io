@@ -12,6 +12,8 @@
 
 * Facebook 社團: https://www.facebook.com/groups/vim.tw/
 * Vim Taiwan @ GitHub - https://github.com/vim-tw
+* @be_vimmer_tw - https://twitter.com/be_vimmer_tw
+* Vim 推廣貼紙 - https://gist.github.com/chusiang/b608909bccff6ed62eb7
  
 ----
 
