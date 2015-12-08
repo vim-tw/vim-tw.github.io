@@ -1,49 +1,51 @@
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Vim 正體中文社群</title>
-    <meta name="Generator" content="Vim/7.3">
-    <meta name="plugin-version" content="vim7.3_v10">
-    <meta name="syntax" content="mkd">
-    <meta name="settings" content="use_css,pre_wrap,expand_tabs">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/jellybeans.vim.css" media="screen">
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>VIM - Taiwan</title>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  </head>
-  <body>
+    <!-- Bootstrap -->
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fork me on GitHub -->
-    <a href="https://github.com/vim-tw/vim-tw.github.io" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    <!-- Bootstrap Material Design -->
+    <link href="./bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.min.css" rel="stylesheet">
+    <link href="./bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+</head>
+<body ng-app='vimApp' ng-controller='vimIndexCtrl' style='padding-top: 70px;'>
+<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="http://vim-tw.github.io/">Vim 正體中文社群</a>
+</div>
+<div class="navbar-collapse collapse navbar-inverse-collapse">
+    <ul class="nav navbar-nav">
+        <li><a href="https://github.com/vim-tw">GITHUB</a></li>
+    </ul>
+</div>
+</div>
+</div>
+<div marked src="'README.md'"></div>
 
-    <pre>
-<span class="lnr"> 1 </span><span class="Title"># Vim 正體中文社群</span>
-<span class="lnr"> 2 </span>
-<span class="lnr"> 3 </span>討論及分享 Vim 相關技巧的小圈圈，請儘量使用正體中文發言，謝謝。
-<span class="lnr"> 4 </span>
-<span class="lnr"> 5 </span><span class="Title">## 聯繫管道</span>
-<span class="lnr"> 6 </span>
-<span class="lnr"> 7 </span><span class="Identifier">* </span>AMA 討論區: <span class="Underlined"><a target="_blank" href="https://github.com/vim-tw/ama">https://github.com/vim-tw/ama</a></span>
-<span class="lnr"> 8 </span><span class="Identifier">* </span>Telegram 群組聊天室: <span class="Underlined"><a target="_blank" href="https://telegram.me/joinchat/CPYvygKUxvnd8xrGsW26MA">https://telegram.me/joinchat/CPYvygKUxvnd8xrGsW26MA</a></span>
-<span class="lnr"> 9 </span><span class="Identifier">* </span>Mail list: <span class="Underlined"><a target="_blank" href="https://groups.google.com/forum/?fromgroups#!forum/vim-taiwan">https://groups.google.com/forum/?fromgroups#!forum/vim-taiwan</a></span>
-<span class="lnr">10 </span><span class="Identifier">* </span>IRC: vim-tw@irc.freenode.net
-<span class="lnr">11 </span>
-<span class="lnr">12 </span><span class="Title">## 相關連結</span>
-<span class="lnr">13 </span>
-<span class="lnr">14 </span><span class="Identifier">* </span>Facebook 社團: <span class="Underlined"><a target="_blank" href="https://www.facebook.com/groups/vim.tw/">https://www.facebook.com/groups/vim.tw/</a></span>
-<span class="lnr">15 </span><span class="Identifier">* </span>Vim Taiwan @ GitHub - <span class="Underlined"><a target="_blank" href="https://github.com/vim-tw">https://github.com/vim-tw</a></span>
-<span class="lnr">16 </span><span class="Identifier">* </span>@be_vimmer_tw - <span class="Underlined"><a target="_blank" href="https://twitter.com/be_vimmer_tw">https://twitter.com/be_vimmer_tw</a></span>
-<span class="lnr">17 </span><span class="Identifier">* </span>Vim 推廣貼紙 - <span class="Underlined"><a target="_blank" href="https://gist.github.com/chusiang/b608909bccff6ed62eb7">https://gist.github.com/chusiang/b608909bccff6ed62eb7</a></span>
-<span class="lnr">18 </span><span class="Title"> </span>
-<span class="lnr">19 </span><span class="Title">----</span>
-<span class="lnr">20 </span>
-<span class="lnr">21 </span>Coypleft (ɔ) from 2015 Vim Taiwan CC BY-NC 2.5 TW.
-    </pre>
-  </body>
+<script src="./bower_components/angular/angular.min.js"></script>
+<script src="./bower_components/marked/marked.min.js"></script>
+<script src="./bower_components/angular-marked/dist/angular-marked.min.js"></script>
+<script type="text/javascript">
+angular
+    .module('vimApp', ['hc.marked'])
+    .controller('vimIndexCtrl', function(){});
+</script>
+</body>
 </html>

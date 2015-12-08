@@ -1,0 +1,14 @@
+{
+    "name": "VIM-Taiwan",
+    "description": "Vim Taiwan",
+    "version": "0.0.1",
+    "homepage": "https://github.com/vim-tw/vim-tw.github.io",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular": "^1.4.8",
+        "angular-marked": "^1.0.1",
+        "bootstrap": "^3.3.6",
+        "bootstrap-material-design": "^0.5.3"
+    }
+}
