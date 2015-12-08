@@ -1,8 +1,10 @@
 {% include header.html %}
+
 {{ content }}
-<h2><a href='https://github.com/vim-tw/ama/issues'># 如果有問題，歡迎到AMA發問</a></h2>
-<ul id="amas">
-</ul>
+
+<h2>## 如有 Vim 使用相關問題，歡迎至 <a href='https://github.com/vim-tw/ama/issues' target='_blank'>AMA</a> 提問</h2>
+
+<ul id="amas"> </ul>
 
 <script>
 fetch('https://api.github.com/repos/vim-tw/ama/issues').then(function(response) {
@@ -23,4 +25,5 @@ fetch('https://api.github.com/repos/vim-tw/ama/issues').then(function(response) 
     document.getElementById('amas').innerHTML += content;
 });
 </script>
+
 {% include footer.html %}

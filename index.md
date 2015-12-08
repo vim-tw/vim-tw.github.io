@@ -12,7 +12,7 @@
 - Mail list: [https://groups.google.com/forum/?fromgroups#!forum/vim-taiwan](https://groups.google.com/forum/?fromgroups#!forum/vim-taiwan){:target="_blank"}
 - IRC: vim-tw@irc.freenode.net
 
-## \# 相關連結
+## \#\# 相關連結
 
 - Facebook 社團: [https://www.facebook.com/groups/vim.tw/](https://www.facebook.com/groups/vim.tw/){:target="_blank"}
 - Vim Taiwan @ GitHub: [https://github.com/vim-tw">](https://github.com/vim-tw){:target="_blank"}
