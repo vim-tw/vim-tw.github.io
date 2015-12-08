@@ -1,0 +1,103 @@
+---
+---
+@import "variable";
+@import "/stylesheets/normalize.css";
+
+@mixin lineNum-style {
+  margin-right: 1rem;
+  width: 2.5rem;
+  text-align: right;
+  counter-increment: ln;
+  content: counter(ln);
+  color: #605958;
+  background-color: #151515;
+  font-weight: 400;
+}
+
+body {
+  counter-reset: ln;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  color: #e8e8d3;
+  background-color: #151515;
+  font-size: $font-size;
+}
+
+#main {
+  padding: 1rem 0;
+  font-family: monospace;
+  color: #e8e8d3;
+  background-color: #151515;
+
+  h1, h2, .Divider {
+    margin: 0;
+    padding: 0;
+    color: #70b950;
+    font-size: $font-size;
+    font-weight: bold;
+
+    &::before {
+      display: inline-block;
+      @include lineNum-style;
+    }
+
+    &::after {
+      display: block;
+      @include lineNum-style;
+    }
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+
+    &::before {
+      display: inline-block;
+      @include lineNum-style;
+    }
+
+    &::after {
+      display: block;
+      @include lineNum-style;
+    }
+  }
+
+  > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    &::after {
+      display: block;
+      @include lineNum-style;
+    }
+
+    li {
+      &::before {
+        content: "* ";
+        color: #c6b6ee;
+      }
+
+      &::after {
+        float: left;
+        display: inline-block;
+        @include lineNum-style;
+      }
+    }
+  }
+
+  > div::before {
+    display: inline-block;
+    @include lineNum-style;
+  }
+
+  a {
+    color: #80a0ff;
+    text-decoration: underline;
+
+    &:hover {
+      color: #70b950;
+    }
+  }
+}
