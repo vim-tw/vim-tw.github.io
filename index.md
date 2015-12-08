@@ -20,5 +20,5 @@
 - Vim 推廣貼紙: [https://gist.github.com/chusiang/b608909bccff6ed62eb7](https://gist.github.com/chusiang/b608909bccff6ed62eb7){:target="_blank"}
 
 <p class="Divider">&ndash;&ndash;&ndash;&ndash;</p>
-Coypleft (ɔ) from 2015 Vim Taiwan CC BY-NC 2.5 TW.
+Copyleft (ɔ) from 2015 Vim Taiwan CC BY-NC 2.5 TW.
 
