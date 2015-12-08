@@ -1,29 +1,26 @@
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Vim 正體中文社群</title>
-    <meta name="Generator" content="Vim/7.3">
-    <meta name="plugin-version" content="vim7.3_v10">
-    <meta name="syntax" content="mkd">
-    <meta name="settings" content="use_css,pre_wrap,expand_tabs">
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+{% include header.html %}
+{{ content }}
+<h2><a href='https://github.com/vim-tw/ama/issues'># 如果有問題，歡迎到AMA發問</a></h2>
+<ul id="amas">
+</ul>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-  </head>
-  <body>
-  <a href="https://github.com/vim-tw/vim-tw.github.io" target="_blank">
-  	<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
-  </a>
-  
-  <div id="main">
-	{{ content }}
-  </div>
-
-  </body>
-</html>
+<script>
+fetch('https://api.github.com/repos/vim-tw/ama/issues').then(function(response) {
+  return response.json();
+})
+.then(function (amas) {
+    var content = '';
+    amas.forEach(function(ama, index, array) {
+        if (ama.pull_request !== undefined){return;}
+        content += `<li><a href="${ama.html_url}">${ama.title}</a> <small>from ${ama.created_at}</small></li>`;
+    });
+    return content;
+})
+.catch(function (content) {
+    return "<p>請點選上方連結以觀看AMA！</p>";
+})
+.then(function (content) {
+    document.getElementById('amas').innerHTML += content;
+});
+</script>
+{% include footer.html %}

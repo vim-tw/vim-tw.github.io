@@ -18,7 +18,3 @@
 - Vim Taiwan @ GitHub: [https://github.com/vim-tw">](https://github.com/vim-tw){:target="_blank"}
 - @be&#95;vimmer&#95;tw: [https://twitter.com/be_vimmer_tw](https://twitter.com/be_vimmer_tw){:target="_blank"}
 - Vim 推廣貼紙: [https://gist.github.com/chusiang/b608909bccff6ed62eb7](https://gist.github.com/chusiang/b608909bccff6ed62eb7){:target="_blank"}
-
-<p class="Divider">&ndash;&ndash;&ndash;&ndash;</p>
-Copyleft (ɔ) from 2015 Vim Taiwan CC BY-NC 2.5 TW.
-
