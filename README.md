@@ -12,7 +12,7 @@
 
 1. 安裝 Ruby 套件。
 
-        $ gem install bundler github-pages
+        $ gem install --no-ri --no-doc bundler github-pages
 
 2. 執行 server。
 
