@@ -1,4 +1,4 @@
-.PHONY: main install run update review clean
+.PHONY: main install run bundle_run update review clean
 
 OS_NAME := $(shell uname)
 BRANCH  := $(shell cat .git/HEAD | awk -F/ '{ print $$3 }')
@@ -9,6 +9,9 @@ install:
 	gem install --no-ri --no-doc bundler github-pages
 
 run:
+	jekyll serve
+
+bundle_run:
 	bundle exec jekyll serve
 
 update:
