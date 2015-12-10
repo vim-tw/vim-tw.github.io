@@ -14,7 +14,7 @@ fetch('https://api.github.com/repos/vim-tw/ama/issues').then(function(response) 
     var content = '';
     amas.forEach(function(ama, index, array) {
         if (ama.pull_request !== undefined){return;}
-        content += `<li><a href="${ama.html_url}">${ama.title}</a> <small>from ${ama.created_at}</small></li>`;
+        content += `<li><a href="${ama.html_url}">${ama.title}</a> <small>from ${(new Date(ama.created_at).toLocaleString())}</small></li>`;
     });
     return content;
 })
