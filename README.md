@@ -1,6 +1,6 @@
 # Vim 正體中文社群網站
 
-討論及分享 Vim 相關技巧的小圈圈，請儘量使用正體中文發言，詳情請參考 [http://vim-tw.github.io](http://vim-tw.github.io)。
+討論及分享 Vim 相關技巧的小圈圈，請儘量使用正體中文發言，詳情請參考 [http://www.vim.tw](http://www.vim.tw)。
 
 聯繫管道：
 
