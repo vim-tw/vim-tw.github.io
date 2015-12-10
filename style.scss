@@ -29,10 +29,24 @@ body {
   color: #e8e8d3;
   background-color: #151515;
 
+  h1::before {
+      padding-right: 2rem;
+      background-image: url($pound);
+      background-repeat: no-repeat;
+      background-position: right top;
+  }
+
+  h2::before {
+      padding-right: 3rem;
+      background-image: url($pound-offset), url($pound);
+      background-repeat: no-repeat, no-repeat;
+      background-position: right top, right top;
+  }
+
   h1, h2, .Divider {
     margin: 0;
     padding: 0;
-    color: #70b950;
+    color: $title-color;
     font-size: $font-size;
     font-weight: bold;
 
@@ -96,7 +110,7 @@ body {
     text-decoration: underline;
 
     &:hover {
-      color: #70b950;
+      color: $title-color;
     }
   }
 }

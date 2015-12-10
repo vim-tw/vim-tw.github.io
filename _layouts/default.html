@@ -2,28 +2,4 @@
 
 {{ content }}
 
-<h2>## 如有 Vim 使用相關問題，歡迎至 <a href='https://github.com/vim-tw/ama/issues' target='_blank'>AMA</a> 提問</h2>
-
-<ul id="amas"> </ul>
-
-<script>
-fetch('https://api.github.com/repos/vim-tw/ama/issues').then(function(response) {
-  return response.json();
-})
-.then(function (amas) {
-    var content = '';
-    amas.forEach(function(ama, index, array) {
-        if (ama.pull_request !== undefined){return;}
-        content += `<li><a href="${ama.html_url}">${ama.title}</a> <small>from ${(new Date(ama.created_at).toLocaleString())}</small></li>`;
-    });
-    return content;
-})
-.catch(function (content) {
-    return "<p>請點選上方連結以觀看AMA！</p>";
-})
-.then(function (content) {
-    document.getElementById('amas').innerHTML += content;
-});
-</script>
-
 {% include footer.html %}
