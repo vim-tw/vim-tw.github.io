@@ -8,7 +8,7 @@
 ## 聯繫管道
 
 - [AMA 討論區](https://github.com/vim-tw/ama){:target="_blank"}
-- [Telegram 群組聊天室](https://telegram.me/joinchat/CPYvygKUxvnd8xrGsW26MA){:target="_blank"}
+- [Telegram 群組聊天室](https://telegram.me/joinchat/CPYvyj2J48f95L09nvNd0w){:target="_blank"}
 - [Mail list](https://groups.google.com/forum/?fromgroups#!forum/vim-taiwan){:target="_blank"}
 - IRC: vim-tw@irc.freenode.net
 
