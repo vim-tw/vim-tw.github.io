@@ -13,6 +13,15 @@
   font-weight: 400;
 }
 
+::selection {
+  background: $normal-color;
+  color: #000;
+}
+::-moz-selection {
+  background: $normal-color;
+  color: #000;
+}
+
 body {
   counter-reset: ln;
   margin: 0;
@@ -58,6 +67,16 @@ body {
     &::after {
       display: block;
       @include lineNum-style;
+    }
+
+    &::selection {
+      background: $title-color;
+      color: #000;
+    }
+
+    &::-moz-selection {
+      background: $title-color;
+      color: #000;
     }
   }
 
@@ -111,6 +130,16 @@ body {
 
     &:hover {
       color: $title-color;
+    }
+
+    &::selection {
+      background: $link-color;
+      color: #000;
+    }
+
+    &::-moz-selection {
+      background: $link-color;
+      color: #000;
     }
   }
 }
