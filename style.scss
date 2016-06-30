@@ -8,9 +8,18 @@
   text-align: right;
   counter-increment: ln;
   content: counter(ln);
-  color: #605958;
+  color: $linenum-color;
   background-color: #151515;
   font-weight: 400;
+}
+
+::selection {
+  background: $normal-color;
+  color: #000;
+}
+::-moz-selection {
+  background: $normal-color;
+  color: #000;
 }
 
 body {
@@ -18,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: monospace;
-  color: #e8e8d3;
+  color: $normal-color;
   background-color: #151515;
   font-size: $font-size;
 }
@@ -26,7 +35,7 @@ body {
 #main {
   padding: 1rem 0;
   font-family: monospace;
-  color: #e8e8d3;
+  color: $normal-color;
   background-color: #151515;
 
   h1::before {
@@ -58,6 +67,16 @@ body {
     &::after {
       display: block;
       @include lineNum-style;
+    }
+
+    &::selection {
+      background: $title-color;
+      color: #000;
+    }
+
+    &::-moz-selection {
+      background: $title-color;
+      color: #000;
     }
   }
 
@@ -106,11 +125,27 @@ body {
   }
 
   a {
-    color: #80a0ff;
+    color: $link-color;
     text-decoration: underline;
 
     &:hover {
       color: $title-color;
     }
+
+    &::selection {
+      background: $link-color;
+      color: #000;
+    }
+
+    &::-moz-selection {
+      background: $link-color;
+      color: #000;
+    }
+  }
+
+  .status_bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }
