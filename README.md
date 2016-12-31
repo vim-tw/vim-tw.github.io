@@ -4,7 +4,7 @@
 
 聯繫管道：
 
-* [Telegram 群組聊天室](https://telegram.me/joinchat/CPYvygKUxvnd8xrGsW26MA)
+* [Telegram 群組聊天室](https://telegram.me/vim_tw)
 * [Mail list](https://groups.google.com/forum/?fromgroups#!forum/vim-taiwan)
 * IRC: vim-tw@irc.freenode.net
 
