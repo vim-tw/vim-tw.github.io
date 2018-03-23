@@ -10,7 +10,7 @@
 
 ## 如何在本機 (localhost) 建置環境
 
-*vim-tw.github.io* 使用 github-pages (Jekll) framework 進行建置，詳請請參考  [Using Jekyll with Pages | 
+*vim-tw.github.io* 使用 github-pages (Jekll) framework 進行建置，詳請請參考  [Using Jekyll with Pages |
 GitHub Pages Basics](https://help.github.com/articles/using-jekyll-with-pages/) 一文。
 
 1. 安裝 Ruby 套件。
@@ -65,9 +65,9 @@ GitHub Pages Basics](https://help.github.com/articles/using-jekyll-with-pages/) 
 	├── js
 	│   └── fetch.js
 	└── style.scss
-	
+
 	6 directories, 21 files
 
 ## 授權 (LICENSE)
 
-Coypleft (ɔ) from 2015 Vim Taiwan CC BY-NC 2.5 TW.
+Copyleft (ɔ) from 2015-2018 Vim Taiwan CC BY-NC 2.5 TW.
