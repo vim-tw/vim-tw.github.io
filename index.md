@@ -7,8 +7,8 @@
 
 ## 聯繫管道
 
-- [AMA 討論區](https://github.com/vim-tw/ama){:target="_blank"}
 - [Telegram 群組聊天室](https://telegram.me/vim_tw){:target="_blank"}
+- [AMA 討論區](https://github.com/vim-tw/ama){:target="_blank"}
 - [Mail list](https://groups.google.com/forum/?fromgroups#!forum/vim-taiwan){:target="_blank"}
 - IRC: vim-tw@irc.freenode.net
 
@@ -19,7 +19,7 @@
 - [@be&#95;vimmer&#95;tw](https://twitter.com/be_vimmer_tw){:target="_blank"}
 - [Vim 推廣貼紙](https://gist.github.com/chusiang/b608909bccff6ed62eb7){:target="_blank"}
 
-## 如有 Vim 使用相關問題，歡迎至 <a href='https://github.com/vim-tw/ama/issues' target='_blank'>AMA</a> 提問
+## 如有 Vim 相關問題，歡迎至 <a href='https://github.com/vim-tw/ama/issues' target='_blank'>Ask me anything (AMA)</a> 提問
 
 <ul id="amas"> </ul>
 
@@ -42,3 +42,8 @@
       document.getElementById('amas').innerHTML += content;
   });
 </script>
+
+## 友站連結
+
+- [Emacs 台灣社群](https://emacser.tw){:target="_blank"}
+- [Linux 台灣社群](https://www.linux.org.tw){:target="_blank"}
