@@ -16,6 +16,7 @@
 
 ## 相關連結
 
+- [vim-tw/vim-tips: A good workman is known by his tips](https://github.com/vim-tw/vim-tips)
 - [Facebook 社團](https://www.facebook.com/groups/vim.tw/){:target="_blank"}
 - [Vim Taiwan @ GitHub](https://github.com/vim-tw){:target="_blank"}
 - [@be&#95;vimmer&#95;tw](https://twitter.com/be_vimmer_tw){:target="_blank"}
