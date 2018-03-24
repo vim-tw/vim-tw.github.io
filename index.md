@@ -3,7 +3,9 @@
 
 # Vim 正體中文社群
 
-討論及分享 Vim 相關技巧的小圈圈，請儘量使用正體中文發言，謝謝。
+討論及分享 Vim 相關技巧的小圈圈，請儘量使用正體中文發言。
+
+若想協助維護此網站，歡迎 fork [vim-tw.github.io](https://github.com/vim-tw/vim-tw.github.io){:target="_blank"}，並發送 Pull Requests 給我們。
 
 ## 聯繫管道
 
