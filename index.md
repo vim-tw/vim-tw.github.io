@@ -51,4 +51,4 @@
 - [Vim-China](http://vim-china.org/){:target="_blank"}
 - [Emacs 台灣社群](https://emacser.tw){:target="_blank"}
 - [Linux 台灣社群](https://www.linux.org.tw){:target="_blank"}
-- [Vim and Vim | StackExchange](https://vi.stackexchange.com/){:target="_blank"}
+- [Vim and Vim @ StackExchange](https://vi.stackexchange.com/){:target="_blank"}
