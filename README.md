@@ -75,4 +75,4 @@ $ tree
 
 ## 授權 (LICENSE)
 
-Copyleft (ɔ) from 2015-2018 Vim Taiwan CC BY-NC 2.5 TW.
+Copyleft (ɔ) from 2015-2020 Vim Taiwan CC BY-NC 2.5 TW.
